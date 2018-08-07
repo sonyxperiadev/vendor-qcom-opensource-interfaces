@@ -110,11 +110,17 @@ intermediates := $(call local-generated-sources-dir, COMMON)
 
 HIDL := $(HOST_OUT_EXECUTABLES)/hidl-gen$(HOST_EXECUTABLE_SUFFIX)
 
+ifeq (1,$(filter 1,$(shell echo "$$(( $(PLATFORM_SDK_VERSION) >= 28 ))" )))
+LOCAL_STATIC_JAVA_LIBRARIES := \
+    android.hardware.wifi.supplicant-V1.0-java \
+    android.hidl.base-V1.0-java \
+    vendor.qti.hardware.wifi.supplicant-V1.0-java
+else
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android.hardware.wifi.supplicant-V1.0-java-static \
     android.hidl.base-V1.0-java-static \
-    vendor.qti.hardware.wifi.supplicant-V1.0-java-static \
-
+    vendor.qti.hardware.wifi.supplicant-V1.0-java-static
+endif
 
 #
 # Build ISupplicantVendorP2PIface.hal
