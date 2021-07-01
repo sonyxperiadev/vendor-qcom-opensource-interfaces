@@ -1,0 +1,33 @@
+#Copyright (c) 2021, The Linux Foundation. All rights reserved.
+
+#Redistribution and use in source and binary forms, with or without
+#modification, are permitted provided that the following conditions are
+#met:
+#    * Redistributions of source code must retain the above copyright
+#      notice, this list of conditions and the following disclaimer.
+#    * Redistributions in binary form must reproduce the above
+#      copyright notice, this list of conditions and the following
+#      disclaimer in the documentation and/or other materials provided
+#      with the distribution.
+#    * Neither the name of The Linux Foundation nor the names of its
+#      contributors may be used to endorse or promote products derived
+#      from this software without specific prior written permission.
+
+#THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+#WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+#ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+#BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+#CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+#SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+#BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+#OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+#IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+# systemhelper HIDL interface
+
+0edcd9296043bf6c11d9fa63573c16da2ab2c89459f9f48b7c4125b8c67b311c vendor.qti.hardware.systemhelper@1.0::types
+40cd1de76b9d3ca23f4c8197b1da75c818fdf891ecc56ed04220f6ca4645b1b8 vendor.qti.hardware.systemhelper@1.0::ISystemEvent
+a75908e4d4f357ac281f47e16312e05d0bcfb1a11ca42ce20306cf2170cec0af vendor.qti.hardware.systemhelper@1.0::ISystemEventCallback
+7b0def6f56ef8b7a02923ea26def3101002594cfdc8209baf66743ac408171c0 vendor.qti.hardware.systemhelper@1.0::ISystemResource
