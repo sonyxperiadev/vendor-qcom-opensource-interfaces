@@ -1,0 +1,13 @@
+package vendor.qti.hardware.fm@1.0;
+
+typedef vec<uint8_t> HciPacket;
+
+enum Status : int32_t {
+    SUCCESS,
+    FAIL,
+    NOT_READY,
+    NOMEM,
+    BUSY,
+    CORRUPTED_BUFFER,
+    NULL_POINTER,
+};

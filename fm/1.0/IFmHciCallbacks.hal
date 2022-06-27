@@ -1,0 +1,4 @@
+package vendor.qti.hardware.fm@1.0;
+
+interface IFmHciCallbacks {
+};
